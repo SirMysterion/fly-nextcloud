@@ -20,6 +20,7 @@ processes = []
   OBJECTSTORE_S3_LEGACYAUTH = "false"
   OBJECTSTORE_S3_AUTOCREATE = "true"
   OBJECTSTORE_S3_BUCKET = "%s3_bucket_name%"
+  OBJECTSTORE_S3_REGION = "%s3_region"
   OBJECTSTORE_S3_KEY = "%s3_access_key%"
   OBJECTSTORE_S3_SECRET = "%s3_secret_key%"
   OBJECTSTORE_S3_HOST = "%s3_endpoint%"

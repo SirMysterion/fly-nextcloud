@@ -94,6 +94,7 @@ sed -i "s/%s3_bucket_name%/${S3_BUCKET_NAME}/g" fly.toml
 sed -i "s/%s3_access_key%/${S3_ACCESS_KEY}/g" fly.toml
 sed -i "s/%s3_secret_key%/${S3_SECRET_KEY}/g" fly.toml
 sed -i "s/%s3_endpoint%/${S3_ENDPOINT}/g" fly.toml
+sed -i "s/%s3_region%/${S3_REGION}/g" fly.toml
 
 # Deploy Nextcloud
 fly deploy
